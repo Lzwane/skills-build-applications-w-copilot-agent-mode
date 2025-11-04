@@ -1,0 +1,84 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-right: 1rem;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3b82f6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f8fafc;
+  padding-left: 2rem;
+}
+
+.App-link {
+  color: #6366f1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #6366f1 !important;
+  border-radius: 0.5rem;
+}
+.navbar-brand, .nav-link {
+  color: #f8fafc !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #a5b4fc !important;
+}
+
+.table {
+  background-color: #f1f5f9;
+  color: #374151;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+.btn-primary {
+  background-color: #6366f1;
+  border-color: #6366f1;
+  color: #f8fafc;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #4338ca;
+  border-color: #4338ca;
+}
+.card-title {
+  color: #6366f1;
+  font-weight: bold;
+}
+.card {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+}
+.form-control {
+  border-radius: 0.5rem;
+  border-color: #6366f1;
+}
+.modal-content {
+  border-radius: 0.75rem;
+}
